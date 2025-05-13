@@ -1,14 +1,11 @@
 .carousel {
     display: flex;
-    padding-top: 3rem;
-
-
+    padding-top: 1rem;
 }
 
 .car-item {
 
     max-height: 20rem;
     object-fit: cover;
-
     flex-shrink: 0;
 }

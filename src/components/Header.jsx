@@ -1,10 +1,12 @@
 
 import blacklogo from '../assets/blacklogo.png'
+import DigitalClock from './Time'
 function Header() {
     return (
         < div id="header">
 
             <nav className='flex items-center justify-between px-6 py-6 bg-white '>
+                <DigitalClock />
                 <div className='absolute left-1/2 transform -translate-x-1/2'>
                     <img src={blacklogo} className='w-20 ' alt="black logo" />
                 </div>
