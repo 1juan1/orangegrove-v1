@@ -1,7 +1,7 @@
 const Hero = () => {
     return (
 
-        <div className="">
+        <div className="py-10">
             <h1 className="text-5xl font-extrabold text-gray-900 mb-4 text-center">
                 a creative company.
             </h1>

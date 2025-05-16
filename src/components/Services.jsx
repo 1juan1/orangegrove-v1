@@ -21,14 +21,17 @@ const services = [
 
 export default function Services() {
     return (
-        <div className=" grid grid-cols-3 ">
-            {services.map(service => (
-                <div className=" p-5 m-8 rounded-md text-center"
-                    key={service.id} >
-                    <h2 className='text-xl font-bold underline decoration-orange-400 decoration-2'>{service.title}</h2>
-                    <p>{service.description}</p>
-                </div>
-            ))}
+        <div className=" py-15 m-5 rounded-md text-center">
+            <div className='font-bold text-5xl align-center mb-4'>services</div>
+            <div className=" grid grid-cols-3 ">
+                {services.map(service => (
+                    <div
+                        key={service.id} >
+                        <h2 className='text-xl font-bold underline decoration-orange-400 decoration-2'>{service.title}</h2>
+                        <p>{service.description}</p>
+                    </div>
+                ))}
+            </div>
         </div>
     );
 }
